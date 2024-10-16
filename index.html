@@ -20,6 +20,30 @@
             font-size: 0.9em;
             color: #555;
         }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px 25px; 
+            margin-top: 20px;
+        }
+        .gallery figure {
+            text-align: center; 
+        }
+        .gallery img {
+            width: 40%; 
+            height: auto;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+        .gallery figcaption {
+            margin-top: 8px;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #0056b3;
+            letter-spacing: 1px; 
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); 
+        }
     </style>
 </head>
     <body>
@@ -95,8 +119,52 @@
         </ul>
 
         <h3>5. Figuras y Mockups</h3>
-        <p>Mockups</p>
-        <img src="" alt="" width="200" height="400">
+        <div class="gallery">
+            <figure>
+                <img src="https://github.com/JuanBurbanoUnimayor/PatenteGestionTecnologia/blob/main/assets/imgs/Directorio.png?raw=true" alt="Directorio">
+                <figcaption>Directorio</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://github.com/JuanBurbanoUnimayor/PatenteGestionTecnologia/blob/main/assets/imgs/Sitios%20de%20Inter%C3%A9s.png?raw=true" alt="Sitio Seleccionado">
+                <figcaption>Sitios de Interés</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://github.com/JuanBurbanoUnimayor/PatenteGestionTecnologia/blob/main/assets/imgs/Sitio%20Seleccionado.png?raw=true" alt="Sitio Seleccionado">
+                <figcaption>Sitio Seleccionado</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://github.com/JuanBurbanoUnimayor/PatenteGestionTecnologia/blob/main/assets/imgs/Comercio.png?raw=true" alt="Comercio">
+                <figcaption>Comercio</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://github.com/JuanBurbanoUnimayor/PatenteGestionTecnologia/blob/main/assets/imgs/Productos-Servicios%201.png?raw=true" alt="Productos y Servicios 1">
+                <figcaption>Servicios 1</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="https://github.com/JuanBurbanoUnimayor/PatenteGestionTecnologia/blob/main/assets/imgs/Productos-Servicios%201%20%E2%80%93%201.png?raw=true" alt="Productos y Servicios 1">
+                <figcaption>Servicios 2</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="https://github.com/JuanBurbanoUnimayor/PatenteGestionTecnologia/blob/main/assets/imgs/Productos-Servicios%202.png?raw=true" alt="Productos y Servicios 2">
+                <figcaption>Productos</figcaption>
+            </figure>
+
+            <figure>
+                <img src="https://github.com/JuanBurbanoUnimayor/PatenteGestionTecnologia/blob/main/assets/imgs/Carrito-Resumen.png?raw=true" alt="Carrito Resumen">
+                <figcaption>Carrito Resumen</figcaption>
+            </figure>
+            
+            <figure>
+                <img src="https://github.com/JuanBurbanoUnimayor/PatenteGestionTecnologia/blob/main/assets/imgs/Pedido-Resumen.png?raw=true" alt="Pedido Resumen">
+                <figcaption>Pedido Resumen</figcaption>
+            </figure>
+        </div>
 
         <h3>6. Ejemplo(s) de realización de la invención</h3>
         <p>Un turista llega a Silvia, descarga la aplicación y navega por las recomendaciones de sitios culturales. Encuentra un listado de comercios locales y decide comprar artesanías a través del módulo de e-commerce. El comerciante local recibe la orden y procesa el envío, todo dentro de la plataforma. Esto no solo mejora la experiencia del turista, sino que también impulsa el crecimiento económico local.</p>
